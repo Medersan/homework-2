@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-page_wrapper {
+  width: 300px;
+  border: 0.1px solid black;
+  padding: 25px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.card-page_title {
+  font-size: 12px;
+  text-align: left;
+  font-weight: 400;
+}
+.card-page_img {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  img{
+    width: 56%;
+  }
+}
+.card-page_rating{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    img{
+        width: 100px;
+    }
+    p{
+        color: blue;
+    }
+}
+.card-page_amount{
+    p{
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    select{
+      border-radius: 3px;
+    }
+}

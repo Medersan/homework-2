@@ -1,0 +1,9 @@
+.main-btn{
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
